@@ -2,7 +2,7 @@
 Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herramienta Kraken y Cypress con el fin de contrastar sus utilidades
 
 
-## Funcionalidades bajo prueba:
+## Descripción de las Funcionalidades bajo prueba:
 
 - Post
 - Page
@@ -12,8 +12,6 @@ Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herra
 - - Delete pagina: realizamos login y borramos pagina uno de la lista, por ultimo regresamos a la pantalla principal para garantizar que se haya borrado la pagina uno de la lista
 - Tag
 - Settings General
-
-## Descripción de los Escenarios de prueba
 
 
 ## Instrucciones para ejecutar la aplicación Ghost
@@ -36,5 +34,4 @@ http://localhost:2370/ghost/
 ## Instrucciones para ejecutar los escenarios en Kraken
 
 
-## Instrucciones para ejecutar los escenarios en Cypress
 
