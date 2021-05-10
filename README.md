@@ -1,5 +1,5 @@
 # Miso-E2E-Harold-Veiko-Kraken-Cypress
-Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herramienta Kraken y Cypress con el fin de contrastar sus utilidades
+Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herramienta Kraken con el fin de contrastar sus utilidades frente a la herramienta cypress
 
 
 ## Descripción de las Funcionalidades bajo prueba:
