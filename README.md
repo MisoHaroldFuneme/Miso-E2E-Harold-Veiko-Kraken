@@ -6,6 +6,10 @@ Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herra
 
 - Post
 - Page
+- - Crear pagina con estado published: realizamos login y creamos pagina con nombre y contenido, por ultimo regresamos a la pantalla principal para garantizar que se haya creado
+- - Crear pagina con estado draft: realizamos login y creamos pagina sin nombre ni contenido, por ultimo regresamos a la pantalla principal para garantizar que se haya creado  con el estado draft
+- - Editar pagina: realizamos login y editamos pagina uno de la lista (titulo ¡ y contenido), por ultimo regresamos a la pantalla principal para garantizar que se haya creado  con el estado draft
+- - Delete pagina: realizamos login y borramos pagina uno de la lista, por ultimo regresamos a la pantalla principal para garantizar que se haya borrado la pagina uno de la lista
 - Tag
 - Settings General
 
