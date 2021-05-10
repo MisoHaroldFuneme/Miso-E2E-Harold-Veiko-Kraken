@@ -1,9 +1,9 @@
-Feature: Example feature
+Feature: Page Published
 
- Feature: Shared board connection
+ Feature: Create page and plubish
 
   @user1 @web
-  Scenario: As a user I make click in page to create
+  Scenario: As a user I create page with status published
     Given I navigate to page "http://localhost:2370/ghost/#/site"
     Then I store a variable with the current url
     # Login general
@@ -30,4 +30,3 @@ Feature: Example feature
    
 
  
-
