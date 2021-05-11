@@ -37,5 +37,6 @@ Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herra
 - - Contraseña Correo: Miso-pruebas%
 - - Contraseña Github: Miso-pruebas%2021
 
-
+## Estrategia Semana 5
+- Se puede descargar la estrategia de esta semana en https://github.com/MisoHaroldFuneme/Miso-E2E-Harold-Veiko-Kraken/blob/master/Estrategia-semana5.rar
 
