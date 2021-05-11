@@ -33,7 +33,9 @@ Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herra
 
 ## Datos de la cuenta GitHub
 - Para ingresar a la cuenta de GitHub y realizar las pruebas se hace con las siguientes credenciales: 
--- Correo: misoharoldfuneme@gmail.com 
--- Contraseña Correo: Miso-pruebas%
--- Contraseña Github: Miso-pruebas%2021
+- - Correo: misoharoldfuneme@gmail.com 
+- - Contraseña Correo: Miso-pruebas%
+- - Contraseña Github: Miso-pruebas%2021
+
+
 
