@@ -16,7 +16,7 @@ Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herra
 
 ## Instrucciones para ejecutar la aplicación Ghost
 
-Link de descarga: https://drive.google.com/file/d/1TG5SqavkgVaLpgqBGHHrTkouqtCrMRBD/view?usp=sharing
+Link de descarga: https://drive.google.com/file/d/1z8BK1kNDGaZABjIURgNiNORfkmxGTOeL/view?usp=sharing
 
 En el link de descarga se encuentra el archivo Ghost 3.3.0.zip el cual será la aplicación que se pondrá a prueba de forma local.
 Para configurar el ambiente de esta aplicación es necesario que tenga instalado Ghost 3.3.0 y Node 12.20.1
