@@ -5,6 +5,10 @@ Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herra
 ## Descripción de las Funcionalidades bajo prueba:
 
 - Post
+- - Crear un post con estado published: realizamos login y creamos post con titulo y contenido, por ultimo regresamos a la pantalla principal para garantizar que se haya creado
+- - Crear un post con estado draft: realizamos login y creamos post sin titulo ni contenido, por ultimo regresamos a la pantalla principal para garantizar que se haya creado  con el estado draft
+- - Editar post: realizamos login y editamos el post uno de la lista (titulo ¡ y contenido), por ultimo regresamos a la pantalla principal para garantizar que se haya creado  con el estado draft
+- - Delete post: realizamos login y borramos post uno de la lista, por ultimo regresamos a la pantalla principal para garantizar que se haya borrado la pagina uno de la lista
 - Page
 - - Crear pagina con estado published: realizamos login y creamos pagina con nombre y contenido, por ultimo regresamos a la pantalla principal para garantizar que se haya creado
 - - Crear pagina con estado draft: realizamos login y creamos pagina sin nombre ni contenido, por ultimo regresamos a la pantalla principal para garantizar que se haya creado  con el estado draft
@@ -14,24 +18,9 @@ Proyecto en el que se ejecutaran escenarios en la aplicación Ghost con la herra
 - Settings General
 
 
-## Instrucciones para ejecutar la aplicación Ghost
-
-Link de descarga: https://drive.google.com/file/d/1z8BK1kNDGaZABjIURgNiNORfkmxGTOeL/view?usp=sharing
-
-En el link de descarga se encuentra el archivo Ghost 3.3.0.zip el cual será la aplicación que se pondrá a prueba de forma local.
-Para configurar el ambiente de esta aplicación es necesario que tenga instalado Ghost 3.3.0 y Node 12.20.1
-
-- 1-) Descomprima el archivo Ghost 3.3.0.zip
-- 2-) Abra una terminal y ubíquese en la dirección de la carpeta Ghost 3.3.0
-- 3-) ejecuté el siguiente comando
-ghost start
-Este ejecutará la aplicación y en la consola mostrar en que puerto podrá verla de modo local. Como ejemplo de la URL:
-
-http://localhost:2370/ghost/
-
-4-) verifique que la aplicación se puede ver de forma local de no ser así verifique los pasos anteriores
-
 ## Instrucciones para ejecutar los escenarios en Kraken
-
-
+- Realizar un clone del repositorio.
+- Modificar el archivo properties.json con la url del ghost local con el que cuentan.
+- Modificar el Usuario y password del ghost local con el que cuentan.
+- ejecutar kraken con: bundle exec kraken-mobile run --properties=properties.json
 
