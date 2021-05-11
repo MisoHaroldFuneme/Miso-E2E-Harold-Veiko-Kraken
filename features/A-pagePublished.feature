@@ -4,11 +4,12 @@ Feature: Page Published
 
   @user1 @web
   Scenario: As a user I create page with status published
-    Given I navigate to page "http://localhost:2370/ghost/#/site"
+    Given I navigate to page "<URL>"
     Then I store a variable with the current url
+    
     # Login general
-    Then I enter "misoharoldfuneme@gmail.com" into input field having id "ember8"
-    Then I enter "Miso-pruebas% " into input field having id "ember10"
+    Then I enter "<USER>" into input field having id "ember8"
+    Then I enter "<PASSWORD>" into input field having id "ember10"
     Then I click on element having id "ember12"
 
     # Test Page crear page
