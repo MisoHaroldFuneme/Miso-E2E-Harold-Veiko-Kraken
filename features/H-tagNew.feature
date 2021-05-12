@@ -20,7 +20,6 @@ Feature: Tag New
 
     # Enter data
     Then I enter "New tag" into input field having xpath "(//input[@name='name'])"
-    Then I enter "new-tag" into input field having xpath "(//input[@name='slug'])"
     Then I enter "Description of new tag" into input field having xpath "(//textarea[@name='description'])"
 
     # Button Save
